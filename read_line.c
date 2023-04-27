@@ -23,6 +23,7 @@ char *read_line()
 
 	if (len == 0 && c == EOF)
 	{ /* if there was no input, return NULL */
+		printf("\n");
 		return (NULL);
 	}
 
